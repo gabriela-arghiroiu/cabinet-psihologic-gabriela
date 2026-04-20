@@ -13,9 +13,3 @@
   from = "/blog/:slug"
   to = "/blog/post.html"
   status = 200
-  conditions = {Language = ["ro"]}
-
-[[redirects]]
-  from = "/blog/:slug"
-  to = "/blog/post.html"
-  status = 200
