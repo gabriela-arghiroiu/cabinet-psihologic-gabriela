@@ -1,0 +1,89 @@
+{
+  "settings": {
+    "google_rating": "5.0",
+    "google_review_count": "11+"
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Laura Codreanu",
+      "initials": "LC",
+      "rating": 5,
+      "text": "Am avut bucuria de a primi ajutor terapeutic eficient din partea Gabrielei, in momente mai dificile in care resursele fizice si emotionale imi erau aproape epuizate. Am rezonat foarte bine cu stilul ei cald si prezent, impreuna cu abordarea ei profesionista si plina de atentie, rabdare, implicare. Toate acestea mi-au fost de un real folos in experimentarea unor „insight"-uri si initierea unor mici (dar importanti) pasi inspre schimbare benefica. Recomand cu totala incredere serviciile psihologice pe care Gabriela le ofera.",
+      "review_date": "Aprilie 2026",
+      "visible": 1
+    },
+    {
+      "id": 2,
+      "name": "Teodora Cristina Onaca",
+      "initials": "TC",
+      "rating": 5,
+      "text": "O recomand din suflet pe Gabriela Arghiroiu. Este un om cald, blând și foarte atent, care reușește să creeze un spațiu în care te simți în siguranță încă de la început. Are o empatie aparte și știe să asculte cu adevărat, fără să judece, iar felul ei de a ghida discuțiile te ajută să te înțelegi mai bine și să vezi lucrurile cu mai multă claritate. De fiecare dată am plecat de la ședințe mai liniștită și cu mai multă încredere. Pentru mine a fost un sprijin real și o experiență foarte frumoasă. O recomand cu toată căldura oricui simte nevoia să vorbească cu cineva care chiar îi pasă.",
+      "review_date": "Aprilie 2026",
+      "visible": 1
+    },
+    {
+      "id": 3,
+      "name": "Roxana Cristea",
+      "initials": "RC",
+      "rating": 5,
+      "text": "O recomand cu drag pe Gabriela pentru profesionalismul și dedicarea de care dă dovadă. Este o persoană empatică, echilibrată și un bun ascultător, calități esențiale pentru un psiholog de încredere.",
+      "review_date": "Aprilie 2026",
+      "visible": 1
+    },
+    {
+      "id": 4,
+      "name": "Anuta Zubascu",
+      "initials": "AZ",
+      "rating": 5,
+      "text": "Doamna Gabriela a avut un impact profund asupra vieții mele. M-a ajutat să îmi înțeleg și să îmi vindec traumele din copilărie, într-un mod în care nu credeam că este posibil. Cu o răbdare extraordinară și un profesionalism desăvârșit, a fost alături de mine în fiecare etapă a acestui proces dificil. M-am simțit ascultat, înțeles și susținut, iar datorită ei am reușit să îmi recapăt echilibrul și încrederea în mine. Îi sunt profund recunoscătoare pentru tot sprijinul oferit.",
+      "review_date": "Aprilie 2026",
+      "visible": 1
+    },
+    {
+      "id": 5,
+      "name": "Mădălina Vingheac",
+      "initials": "MV",
+      "rating": 5,
+      "text": "Am avut o experienta deschisa și de mare ajutor, recomand din tot sufletul.",
+      "review_date": "Aprilie 2026",
+      "visible": 1
+    },
+    {
+      "id": 6,
+      "name": "Diana Cicortas",
+      "initials": "DC",
+      "rating": 5,
+      "text": "Recomand cu mare drag! Gabi este o persoană empatica, atenta si creeaza un mediu sigur in care te poti deschide fara teama. M-a ajutat sa inteleg mai bine anumite situatii si sa gasesc solutii concrete.",
+      "review_date": "Aprilie 2026",
+      "visible": 1
+    },
+    {
+      "id": 7,
+      "name": "Alina Damian",
+      "initials": "AD",
+      "rating": 5,
+      "text": "Un om atat de bun, care iti este alaturi trup si suflet in rezolvarea oricarei probleme pe care o intampini. Rar mai intalnesti oameni buni care sa te inteleaga si sa iti „mangaie" sufletul. Recomand din toata inima!",
+      "review_date": "Aprilie 2026",
+      "visible": 1
+    },
+    {
+      "id": 8,
+      "name": "Ramona Chise",
+      "initials": "RC",
+      "rating": 5,
+      "text": "Gabi este o terapeuta dedicata, care tratează pacienții cu răbdare, calm și profesionalism, gata să răspundă la orice întrebare care te preocupă. Din interactiunea cu ea am ramas impresionata de experiența și cunoștințele în domeniu, dar și de caracterul sau. M-a intampinat cu o atitudine prietenoasa si empatica si un zâmbet cald ce inspiră încredere și bunătate. Recomand cu incredere!",
+      "review_date": "Aprilie 2026",
+      "visible": 1
+    },
+    {
+      "id": 9,
+      "name": "Gabriela Boengiu",
+      "initials": "GB",
+      "rating": 5,
+      "text": "Pe doamna Gabriela am cunoscut-o doar online intr-o sedinta de terapie in urma pierderii unei persoane dragi. M-a ajutat foarte mult acea sedinta. Prin empatie, intelegere si sfaturi reale si aplicabile doamna psiholog a reusit sa ma ajute sa depasesc momentul si sa integrez pierderea. Chiar daca sedinta a fost gratuita doamna psiholog a dat dovada de multa implicare si profesionalism. Va multumesc si va urez multa sanatate si putere sa ajutati cat mai multi oameni!!! Sunteti o persoana deosebita!",
+      "review_date": "Noiembrie 2025",
+      "visible": 1
+    }
+  ]
+}
