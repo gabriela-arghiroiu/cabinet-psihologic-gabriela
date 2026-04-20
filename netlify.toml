@@ -3,18 +3,18 @@
 
 [[redirects]]
   from = "/blog/*"
-  to = "https://YOUR-APP.onrender.com/blog/:splat"
+  to = "https://cabinet-psihologic-gabriela.onrender.com/blog/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/admin*"
-  to = "https://YOUR-APP.onrender.com/admin:splat"
+  to = "https://cabinet-psihologic-gabriela.onrender.com/admin:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/api/*"
-  to = "https://YOUR-APP.onrender.com/api/:splat"
+  to = "https://cabinet-psihologic-gabriela.onrender.com/api/:splat"
   status = 200
   force = true
