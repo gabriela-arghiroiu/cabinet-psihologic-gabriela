@@ -2,6 +2,12 @@
   publish = "."
 
 [[redirects]]
+  from = "https://www.gabrielaarghiroiu.ro/*"
+  to = "https://gabrielaarghiroiu.ro/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/blog/*"
   to = "https://cabinet-psihologic-gabriela.onrender.com/blog/:splat"
   status = 200
