@@ -1,26 +1,21 @@
 [build]
   publish = "."
 
+# www → non-www
 [[redirects]]
   from = "https://www.gabrielaarghiroiu.ro/*"
   to = "https://gabrielaarghiroiu.ro/:splat"
   status = 301
   force = true
 
+# Blog articol individual
 [[redirects]]
-  from = "/blog/*"
-  to = "https://cabinet-psihologic-gabriela.onrender.com/blog/:splat"
+  from = "/blog/:slug"
+  to = "/blog/post.html"
   status = 200
-  force = true
+  conditions = {Language = ["ro"]}
 
 [[redirects]]
-  from = "/admin*"
-  to = "https://cabinet-psihologic-gabriela.onrender.com/admin:splat"
+  from = "/blog/:slug"
+  to = "/blog/post.html"
   status = 200
-  force = true
-
-[[redirects]]
-  from = "/api/*"
-  to = "https://cabinet-psihologic-gabriela.onrender.com/api/:splat"
-  status = 200
-  force = true

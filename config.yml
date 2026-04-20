@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+locale: ro
+
+collections:
+  - name: "posts"
+    label: "Articole"
+    label_singular: "Articol"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "/blog/{{slug}}"
+    fields:
+      - { label: "Titlu", name: "title", widget: "string" }
+      - { label: "Data publicării", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD.MM.YYYY", time_format: false }
+      - { label: "Status", name: "status", widget: "select", options: [{label: "Draft", value: "draft"}, {label: "Publicat", value: "published"}], default: "draft" }
+      - { label: "Categorie", name: "category", widget: "string", required: false, hint: "ex: Terapie, Cuplu, Familie" }
+      - { label: "Rezumat scurt (excerpt)", name: "excerpt", widget: "text", required: false, hint: "Apare pe card în lista de articole" }
+      - { label: "Meta description (SEO)", name: "meta_description", widget: "text", required: false }
+      - { label: "Imagine principală", name: "featured_image", widget: "image", required: false }
+      - { label: "Conținut articol", name: "body", widget: "markdown" }
