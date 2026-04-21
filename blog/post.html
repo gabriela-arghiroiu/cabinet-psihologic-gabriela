@@ -153,9 +153,7 @@ function buildTOC(container) {
 }
 
 function getSlug() {
-  const path = window.location.pathname;
-  const parts = path.split('/').filter(Boolean);
-  return parts[parts.length - 1] || '';
+  return new URLSearchParams(window.location.search).get('slug') || '';
 }
 
 async function loadPost() {
