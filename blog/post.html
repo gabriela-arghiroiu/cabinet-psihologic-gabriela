@@ -134,7 +134,7 @@ function buildTOC(container) {
     h.id = id;
     items.push(`<li><a href="#${id}">${h.textContent}</a></li>`);
   });
-  const toc = document.createElement('nav');
+  const toc = document.createElement('div');
   toc.className = 'article-toc';
   toc.setAttribute('aria-label', 'Cuprins articol');
   toc.innerHTML = `<div class="toc-header"><span class="toc-title">Cuprins</span><button class="toc-toggle" aria-expanded="true" aria-label="Ascunde cuprins">▲</button></div><ol class="toc-list">${items.join('')}</ol>`;
