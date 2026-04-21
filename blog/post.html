@@ -25,42 +25,37 @@
 
 <div class="reading-bar" id="readingBar"></div>
 
-<nav class="nav" id="nav">
-  <div class="nav-container">
-    <a href="/" class="nav-logo">Gabriela Arghiroiu</a>
-    <div class="nav-links">
-      <a href="/#despre">Despre mine</a>
-      <div class="nav-dropdown">
-        <a href="#">Servicii <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg></a>
-        <div class="dropdown-menu">
-          <a href="/terapie-cuplu-oradea.html">Terapie de Cuplu</a>
-          <a href="/terapie-familie-oradea.html">Terapie de Familie</a>
-          <a href="/evaluare-psihologica-oradea.html">Evaluare Psihologică</a>
-          <a href="/psihoncologie-oradea.html">Psiho-oncologie</a>
-        </div>
-      </div>
-      <a href="/#tarife">Tarife</a>
-      <a href="/#cum-lucrez">Cum lucrez</a>
-      <a href="/#intrebari">Întrebări</a>
-      <a href="/blog">Blog</a>
+<nav id="nav">
+    <div class="container">
+        <a href="/" class="nav-logo">Gabriela Arghiroiu</a>
+        <ul class="nav-links">
+            <li><a href="/#despre">Despre mine</a></li>
+            <li class="nav-dropdown"><a href="/#servicii">Servicii <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></a><div class="dropdown-menu"><a href="/terapie-cuplu-oradea.html">Terapie de Cuplu</a><a href="/terapie-familie-oradea.html">Terapie de Familie</a><a href="/evaluare-psihologica-oradea.html">Evaluare Psihologică</a><a href="/psihoncologie-oradea.html">Psiho-oncologie</a></div></li>
+            <li><a href="/#tarife">Tarife</a></li>
+            <li><a href="/#cum-lucrez">Cum lucrez</a></li>
+            <li><a href="/#intrebari">Întrebări</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/#contact" class="btn btn-nav">Programează o ședință</a></li>
+        </ul>
+        <button class="hamburger" onclick="toggleMenu()" aria-label="Meniu">
+            <span></span><span></span><span></span>
+        </button>
     </div>
-    <a href="/#contact" class="btn btn-primary nav-cta">Programează o ședință</a>
-    <button class="hamburger" onclick="toggleMenu()" aria-label="Meniu">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="/#despre" onclick="closeMenu()">Despre mine</a>
-    <a href="/terapie-cuplu-oradea.html" onclick="closeMenu()">Terapie de Cuplu</a>
-    <a href="/terapie-familie-oradea.html" onclick="closeMenu()">Terapie de Familie</a>
-    <a href="/evaluare-psihologica-oradea.html" onclick="closeMenu()">Evaluare Psihologică</a>
-    <a href="/psihoncologie-oradea.html" onclick="closeMenu()">Psiho-oncologie</a>
-    <a href="/#tarife" onclick="closeMenu()">Tarife</a>
-    <a href="/#intrebari" onclick="closeMenu()">Întrebări</a>
-    <a href="/blog" onclick="closeMenu()">Blog</a>
-    <a href="/#contact" class="btn btn-primary" onclick="closeMenu()">Programează o ședință</a>
-  </div>
 </nav>
+
+<div class="mobile-menu" id="mobileMenu">
+    <a href="/#despre" onclick="closeMenu()">Despre mine</a>
+    <a href="/#servicii" onclick="closeMenu()" style="font-weight:600;">Servicii</a>
+    <a href="/terapie-cuplu-oradea.html" onclick="closeMenu()" style="padding-left:24px; font-size:0.88rem; opacity:0.85;">↳ Terapie de Cuplu</a>
+    <a href="/terapie-familie-oradea.html" onclick="closeMenu()" style="padding-left:24px; font-size:0.88rem; opacity:0.85;">↳ Terapie de Familie</a>
+    <a href="/evaluare-psihologica-oradea.html" onclick="closeMenu()" style="padding-left:24px; font-size:0.88rem; opacity:0.85;">↳ Evaluare Psihologică</a>
+    <a href="/psihoncologie-oradea.html" onclick="closeMenu()" style="padding-left:24px; font-size:0.88rem; opacity:0.85;">↳ Psiho-oncologie</a>
+    <a href="/#tarife" onclick="closeMenu()">Tarife</a>
+    <a href="/#cum-lucrez" onclick="closeMenu()">Cum lucrez</a>
+    <a href="/#intrebari" onclick="closeMenu()">Întrebări frecvente</a>
+    <a href="/blog" onclick="closeMenu()">Blog</a>
+    <a href="/#contact" class="btn" onclick="closeMenu()">Programează o ședință</a>
+</div>
 
 <main id="articleMain">
   <div style="text-align:center;padding:120px 0;color:#9aaba5;">Se încarcă articolul…</div>
