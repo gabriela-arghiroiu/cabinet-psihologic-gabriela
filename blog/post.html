@@ -207,14 +207,14 @@ async function loadPost() {
         ${featImg}
         ${tldr}
         <div class="article-body" id="articleBody">${htmlContent}</div>
-        <footer class="article-footer-row">
+        <div class="article-footer-row">
           <a href="/blog" class="back-link">← Înapoi la blog</a>
           <div class="share-row">
             <span>Distribuie:</span>
             <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonicalUrl)}" target="_blank" rel="noopener">Facebook</a>
             <a href="https://wa.me/?text=${encodeURIComponent(title + ' ' + canonicalUrl)}" target="_blank" rel="noopener">WhatsApp</a>
           </div>
-        </footer>
+        </div>
         <div class="author-bio">
           <div class="author-bio-avatar" aria-hidden="true">GA</div>
           <div class="author-bio-content">
