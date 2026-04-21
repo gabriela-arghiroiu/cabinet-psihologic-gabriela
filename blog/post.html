@@ -148,7 +148,11 @@ function buildTOC(container) {
 }
 
 function getSlug() {
-  return new URLSearchParams(window.location.search).get('slug') || '';
+  const qSlug = new URLSearchParams(window.location.search).get('slug');
+  if (qSlug) return qSlug;
+  const parts = window.location.pathname.split('/');
+  const pathSlug = parts[parts.length - 1];
+  return (pathSlug && pathSlug !== 'post.html' && pathSlug !== 'post') ? decodeURIComponent(pathSlug) : '';
 }
 
 async function loadPost() {
