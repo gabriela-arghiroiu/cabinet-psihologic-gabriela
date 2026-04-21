@@ -1,3 +1,4 @@
+# Sveltia CMS config
 backend:
   name: github
   repo: gabriela-arghiroiu/cabinet-psihologic-gabriela
