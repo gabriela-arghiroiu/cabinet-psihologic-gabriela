@@ -7,7 +7,25 @@
   <title>Admin — Cabinet Psihologic Gabriela</title>
 </head>
 <body>
+  <script>window.CMS_MANUAL_INIT = true;</script>
   <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+  <script>
+    CMS.init({ config: {
+      backend: { name: 'github', repo: 'gabriela-arghiroiu/cabinet-psihologic-gabriela', branch: 'main', base_url: 'https://sveltia-cms-auth.gabriela-arghiroiu.workers.dev' },
+      media_folder: 'uploads', public_folder: '/uploads', locale: 'ro',
+      collections: [{ name: 'posts', label: 'Articole', folder: 'content/posts', create: true, slug: '{{slug}}',
+        fields: [
+          { label: 'Titlu', name: 'title', widget: 'string' },
+          { label: 'Data publicării', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD' },
+          { label: 'Status', name: 'status', widget: 'select', options: [{ label: 'Draft', value: 'draft' }, { label: 'Publicat', value: 'published' }] },
+          { label: 'Categorie', name: 'category', widget: 'string', required: false },
+          { label: 'Rezumat scurt', name: 'excerpt', widget: 'text', required: false },
+          { label: 'Meta description', name: 'meta_description', widget: 'text', required: false },
+          { label: 'Imagine principală', name: 'featured_image', widget: 'image', required: false },
+          { label: 'Conținut articol', name: 'body', widget: 'markdown' }
+        ]
+      }]
+    }});
+  </script>
 </body>
 </html>
-
