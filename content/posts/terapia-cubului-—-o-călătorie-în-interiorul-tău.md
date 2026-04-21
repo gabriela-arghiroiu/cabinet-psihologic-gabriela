@@ -5,7 +5,7 @@ status: published
 category: terapie
 excerpt: O metodă de introspecție psihologică care îți dezvăluie cum percepi lumea, relațiile și propriul sine.
 meta_description: Dacă ești curios/curioasă cum ar arăta cubul tău — sau dacă simți că ai nevoie de un punct de pornire pentru a te cunoaște mai bine — îți propun să explorăm împreună această tehnică în cadrul unei ședințe.
-featured_image: ''
+featured_image: /uploads/terapie-cuplu-oradea-gabriela-arghiroiu.jpg
 ---
 
 De-a lungul anilor de practică, am căutat mereu instrumente care să îmi ajute pacienții să se cunoască mai bine — nu prin întrebări directe, ci prin metafore și imagini care ocolesc apărările minții. Terapia cubului este una dintre tehnicile pe care le folosesc frecvent, mai ales la începutul unui proces terapeutic, pentru că îmi oferă o fereastră neobișnuit de clară asupra lumii interioare a persoanei din fața mea.
