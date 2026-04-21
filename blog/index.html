@@ -175,7 +175,7 @@ function renderCard(a) {
 async function loadBlog() {
   const grid = document.getElementById('blogGrid');
   try {
-    const cacheKey = 'blog_index_v1';
+    const cacheKey = 'blog_index_v2';
     const cached = sessionStorage.getItem(cacheKey);
     let files;
     if (cached) {
@@ -192,7 +192,7 @@ async function loadBlog() {
       return;
     }
     const articles = await Promise.all(mdFiles.map(async f => {
-      const r = await fetch(`https://raw.githubusercontent.com/${REPO}/${BRANCH}/content/posts/${f.name}`);
+      const r = await fetch(`https://raw.githubusercontent.com/${REPO}/${BRANCH}/content/posts/${encodeURIComponent(f.name)}`);
       const text = await r.text();
       const { data } = parseFrontmatter(text);
       return { ...data, slug: f.name.replace('.md', '') };
